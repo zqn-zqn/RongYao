@@ -1,0 +1,64 @@
+/*内外边距清零*/
+html,body,div,img,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,hr,header,footer,nav,main,section,article,aside,details,figcaption,figure,hgroup,menu,mark,dialog,embed {
+    margin:0;
+    padding:0;
+}
+
+/*背景颜色、字体颜色、字体大小、字体样式*/
+/*body{
+    background:#fff;
+    color:#000;
+    font-size:14px;
+    font-family: 'Microsoft yahei',Verdana, Arial, Helvetica, sans-serif; 
+}*/
+/*荣耀的字体格式*/
+body, button, input, select, textarea {
+    font: 12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+
+td,th,caption {
+    font-size:14px;/*字体大小*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight:normal; /*文字加粗去除*/
+    font-size:100%; /*字体大小100%*/
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style:normal; /*字体样式去除*/
+    font-weight:normal;/*文字加粗去除*/
+}
+a{
+    text-decoration:none;/*文本修饰,去除下划线*/
+}
+img{
+    border:none;/*去除边框*/
+    vertical-align: top;/*去除图片3-5的像素(垂直对齐方式、处理行内块元素对齐方式问题时，一般只会给行内块元素设置)*/
+}
+ol,ul,li {
+    list-style:none;/*去除列表符号*/
+}
+li{
+    vertical-align:top;/*元素垂直对齐方式，元素的顶端与行中最高元素的顶端对齐*/
+}
+
+
+input, textarea, select, button {
+    font:14px 'Microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+     /*字体大小、把多个字体名称作为一个"回退"系统来保存。如果浏览器不支持第一个字体，则会尝试下一个。*/
+     /*微软雅黑体，无衬线字体，无衬线体TrueType字型:类似黑体的字体，西文字体*/
+}
+table {
+    border-collapse:collapse;/*边框合并为一个单一的边框*/
+}
+/*清除浮动*/
+/* .clearfix:after {
+    content: ".";
+    display: block;
+    height:0;
+    clear:both;
+    overflow: hidden;
+    visibility: hidden;
+}
+.clearfix { *zoom:1; } */

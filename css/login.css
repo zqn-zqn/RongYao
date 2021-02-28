@@ -1,0 +1,211 @@
+html {
+    overflow-x: hidden;
+}
+/* header-头部 */
+.header {
+    width: 100%;
+    background: rgba(0,0,0,.05);
+}
+.header_one {
+    width: 1200px;
+    height: 48px;
+    margin: 0 auto;
+}
+.header_one img {
+    height: 24px;
+    width: 108px;
+    margin-left: 4px;
+    margin-top: 12px;
+}
+
+.header_from {
+    width: 100%;
+}
+.header_input {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.header_padding {
+    padding: 60px 400px 38px;
+}
+.header_zc {
+    text-align: center;
+    /* margin: 10px 0 60px; */
+    margin-top: 10px;
+}
+.header_zc span {
+    display: block;
+    font-size: 32px;
+}
+.header_zh {
+    text-align: center;
+    margin-top: 8px;
+}
+.header_zh span:nth-child(1) {
+    font-size: 18px;
+}
+.header_zh span:nth-child(2) {
+    color: #007dff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.header_zh span:nth-child(3) {
+    color: #007dff;
+    font-size: 18px;
+}
+.input_01 {
+    height: 40px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+.input_02 {
+    height: 40px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+.input_0201 input {
+    width: 260px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    outline-style: none;
+    padding: 0 13px;
+}
+.input_03 {
+    width: 260px;
+    height: 40px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+.input_04 {
+    height: 40px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+.input_05 {
+    height: 40px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+.input_05 input {
+    width: 260px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    outline-style: none;
+    padding: 0 13px;
+}
+.input_06 {
+    height: 40px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+.input_06 input {
+    width: 260px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    outline-style: none;
+    padding: 0 13px;
+}
+.input_07 {
+    height: 40px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+.input_zcansx{
+    border-radius: 6.4px;
+    background: #007dff;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    width: 220px;
+    font-size: 14px;
+    height: 38px;
+    color: #fff;
+    padding: 0 12px;
+    margin-top: 40px;
+    margin-left: 90px;
+    opacity: 0.38 !important;
+    outline-style: none;
+}
+
+/* bottom-底部 */
+.bottom {
+    width: 100%;
+    background: rgba(0,0,0,.05);
+    padding-bottom: 38px;
+}
+.bottom_one {
+    width: 1200px;
+    height: 110px;
+    margin: 0 auto;
+}
+.bottom_one ul {
+    padding: 26px 400px 30px;
+    font-size: 14px;
+}
+.bottom_one ul li:nth-child(1) {
+    float: left;
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid #d3d3d3;
+}
+.bottom_one ul li:nth-child(2) {
+    float: left;
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid #d3d3d3;
+}
+.bottom_one ul li:nth-child(3) {
+    float: left;
+}
+.bottom_p {
+    text-align: center;
+    color: #000;
+    opacity: .3;
+    font-size: 14px;
+}
+
+/* 固定定位 */
+.position {
+    width: 100%;
+    opacity: .9;
+    background: #dedede;
+    position: fixed;
+    bottom: 0px;
+}
+.position_one {
+    width: 1200px;
+    height: 48px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 48px;
+    font-size: 14px;
+}
+.position_one span:nth-child(2) {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: url(../images/zc-dl.png);
+    background-size: 14px 14px;
+    margin-left: 16px;
+    margin-top: 16px;
+}

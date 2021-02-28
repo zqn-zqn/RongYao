@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+</head>
+<body>
+    <!-- shortcut-捷径栏 -->
+    <div class="shortcut">
+        <div class="layout">
+            <ul class="layout_1">
+                <li>关于荣耀</li>
+                <li>新闻</li>
+                <li>摄影</li>
+                <li>会员</li>
+                <li>企业购</li>
+                <li>荣耀俱乐部</li>
+            </ul>
+            <ul class="layout_2">
+                <li>
+                    <span class="layout_login">注册</span>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <span class="layout_enter">登录</span>
+                </li>
+                <li>我的订单</li>
+                <li class="layout_2_li">
+                    <div class="layout_div1">
+                        <a class="icon_a" href="./shopping.html">购物车(<span>0</span>)</a>
+                    </div>
+                    <div class="shop">
+                        <p class="shop_p">
+                            <span class="shop_span"></span>
+                        </p>
+                        <p>您的购物车是空的，赶紧选购吧~</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="layout_div2">
+                        <a class="icon_a2">手机端</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- header-头部 -->
+    <div class="header">
+        <div class="layout">
+            <div class="header_left">
+                <img src="./images/header_001.png" class="header_img" alt="荣耀商城">
+                <ul class="header_ul">
+                    <li>新品上市</li>
+                    <li>新人有礼</li>
+                    <li>开业盛典</li>
+                    <li>荣耀30</li>
+                    <li>猎人笔记本</li>
+                </ul>
+            </div>
+            <div class="header_right">
+                <div class="header_svg"></div>
+                <form >
+                    <input class="text" type="text">
+                    <input class="submit_1" type="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script>
+        $(function(){
+            $(".header_img").click(function(){
+                /* window.location.href="./index.html"; */
+                $(location).attr('href','./index.html');
+            })
+            $('.layout_login').click(function(){
+                $(location).attr('href','./login.html')
+            })
+            $('.layout_enter').click(function(){
+                $(location).attr('href','./enter.html')
+            })
+        })
+    </script>
+</body>
+</html>

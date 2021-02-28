@@ -1,0 +1,151 @@
+/* 列表页 */
+#main {
+  min-width: 1200px;
+  background: #f9f9f9;
+}
+
+#main .main_wrap {
+  font-size: 12px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#main .main_wrap p {
+  padding: 15px 0;
+}
+
+#main .main_wrap p i {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#main .main_wrap .main_list {
+  padding: 5px 20px;
+  background-color: #fff;
+}
+
+#main .main_wrap .main_list span {
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  border-bottom: 1px solid #eee;
+  color: #666;
+}
+
+#main .main_wrap .main_list span a {
+  color: #333;
+}
+
+#main .main_wrap .main_list span .a1 {
+  margin-left: 100px;
+}
+
+#main .main_wrap .main_list span .a2 {
+  margin-left: 76px;
+}
+
+#main .main_wrap .main_list .last i {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+#main .main_wrap .main_list .last a {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+#main .main_wrap .main_list span:nth-last-child(1) {
+  border: 0;
+}
+
+#main .main_wrap .main_list span a:hover {
+  color: #cf0a2c;
+}
+
+#main .main_wrap .main2_list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1215px;
+  margin-top: 20px;
+}
+
+#main .main_wrap .main2_list li {
+  margin-right: 14px;
+  background-color: #fff;
+  width: 205px;
+  height: 352px;
+  /* text-align: center; */
+  font-size: 14px;
+  line-height: 26px;
+  color: #333333;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-shadow: 0 5px 20px #eee;
+  position: relative;
+  cursor: pointer;
+}
+
+#main .main_wrap .main2_list li img {
+  margin-top: 36px;
+  width: 180px;
+  height: 180px;
+  padding-left: 17px;
+}
+
+#main .main_wrap .main2_list li span {
+  display: block;
+  font-size: 12px;
+  color: #999999;
+  padding-top: 6px;
+}
+
+#main .main_wrap .main2_list li i {
+  display: block;
+  margin-top: 5px;
+  font-style: normal;
+}
+
+#main .main_wrap .main2_list li .money {
+  color: #ca141d;
+  font-size: 18px;
+}
+
+#main .main_wrap .main2_list li .more {
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  color: lightblue;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+#main .main_wrap .main2_list li .more02 {
+  padding: 0 5px;
+  line-height: 14px;
+  text-align: center;
+  color: #ca141d;
+  border: 1px solid #d5434a;
+  float: left;
+  margin: 8px 4px 8px 0px;
+  font-size: 12px;
+}
+
+#main .main_wrap .main2_list li .more03 {
+  padding: 0 5px;
+  line-height: 14px;
+  text-align: center;
+  color: #ca141d;
+  /* border: 1px solid #d5434a; */
+  float: left;
+  margin: 8px 4px 8px 0px;
+  font-size: 12px;
+}
+
+#main .main_wrap .main2_list li:hover {
+  box-shadow: 0px 8px 16px #eee;
+}/*# sourceMappingURL=goodsList.css.map */
+

@@ -1,0 +1,377 @@
+/* 底部 */
+
+.slogan-container {
+    background: #f9f9f9;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.slogan-container .slogan {
+    padding: 22px 0 20px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.slogan-container .slogan ul li {
+    display: table-cell;
+    font-size: 18px;
+    color: #333;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.slogan-container .slogan ul li a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+.slogan-container .slogan ul li a i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.slogan-container .slogan ul li:first-child {
+    padding-right: 120px;
+}
+
+.slogan-container .slogan ul li:first-child a i {
+    background: url("../images/icon01.svg") no-repeat;
+    margin-right: 15px;
+    background-position: -74px 0;
+}
+
+.slogan-container .slogan ul li:nth-child(2) {
+    padding-right: 120px;
+}
+
+.slogan-container .slogan ul li:nth-child(2) a i {
+    background: url("../images/icon01.svg") no-repeat;
+    margin-right: 15px;
+    background-position: -154px 0;
+}
+
+.slogan-container .slogan ul li:nth-child(3) {
+    padding-right: 110px;
+}
+
+.slogan-container .slogan ul li:nth-child(3) a i {
+    background: url("../images/icon01.svg") no-repeat;
+    margin-right: 15px;
+    background-position: -194px 0;
+}
+
+.slogan-container .slogan ul li:last-child {
+    padding-right: 0px;
+}
+
+.slogan-container .slogan ul li:last-child a i {
+    background: url("../images/icon01.svg") no-repeat;
+    margin-right: 15px;
+    background-position: -114px 0;
+}
+
+.service-container {
+    background: #f9f9f9;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.service-container .service {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 30px 0 46px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.service-container .service .service-l {
+    float: left;
+    width: 920px;
+    height: 155px;
+    padding-top: 5px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.service-container .service .service-l dl {
+    float: left;
+    width: 20%;
+}
+
+.service-container .service .service-l dl dt {
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+.service-container .service .service-l dl dt p {
+    font-size: 14px !important;
+    padding-bottom: 7px;
+    color: #333;
+    display: block;
+    border-left: 0;
+    padding-left: 0;
+    line-height: 1.5 !important;
+    margin-bottom: 0 !important;
+}
+
+.service-container .service .service-l dl dd ol {
+    list-style: none;
+}
+
+.service-container .service .service-l dl dd ol li a {
+    display: block;
+    font-size: 12px;
+    color: #777;
+    line-height: 22px;
+}
+
+.service-container .service .service-l dl dd ol li a:hover {
+    color: #cc1f27;
+}
+
+.service-container .service .s6 .relative {
+    position: relative;
+}
+
+.service-container .service .s6 .relative .button {
+    font-size: 14px;
+    position: absolute;
+    left: 65px;
+    bottom: 0px;
+    cursor: pointer;
+}
+
+.service-container .service-r {
+    float: left;
+    width: 230px;
+    min-height: 160px;
+    margin-top: 2px;
+    padding-left: 49px;
+}
+
+.service-container .service-r dl {
+    width: 279px;
+}
+
+.service-container .service-r dl dt {
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+.service-container .service-r dl dt p {
+    font-size: 24px;
+    /* !important */
+    padding: 0;
+    color: #cb242b;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.service .service-r .num {
+    font-size: 24px;
+    color: #575757;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.service .service-r .word {
+    font-size: 16px;
+    color: #575757;
+    font-weight: bold;
+}
+
+.service-container .service-r dl dd {
+    font-size: 14px;
+    color: #333;
+}
+
+.service-container .service-r dl dd ol {
+    list-style: none;
+}
+
+.service-container .service-r dl dd ol li {
+    width: 279px;
+    color: #777;
+}
+
+.service-container .service-r dl dd ol li a {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    line-height: 22px;
+    border: none;
+    width: 220px;
+    height: 22px;
+    margin-top: 5px;
+}
+
+.service .service-r .service-btn {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.service .service-r .service-btn:before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url(../images/icon-common.svg) no-repeat;
+    background-position: -100px -148px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+
+.service-container .service-r dl dd a i {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 6px;
+    position: relative;
+    top: 2px;
+    vertical-align: middle;
+    background: url(../img/banner5.jpg) no-repeat;
+}
+
+.service-container .service-r .service-code {
+    float: left;
+    width: 250px;
+    margin-top: 26px;
+}
+
+.service-container .service-r .service-code h2 {
+    font-size: 14px;
+    color: #333;
+    float: left;
+}
+
+.service-container .service-r .service-code ul {
+    float: left;
+    margin-left: 3px;
+}
+
+.service-container .service-r .service-code ul li {
+    width: 24px;
+    height: 24px;
+    margin-right: 11px;
+    position: relative;
+    float: left;
+    background: url(../img/icon-header.png) no-repeat;
+}
+
+.service-container .service-r .service-code ul li:nth-child(1) {
+    background-position: -355px -171px;
+}
+
+.service-container .service-r .service-code ul li:nth-child(2) {
+    background-position: -403px -171px;
+}
+
+.service-container .service-r .service-code ul li:nth-child(3) {
+    background-position: -451px -171px;
+}
+
+.service-container .service-r .service-code ul li:nth-child(4) {
+    background-position: -499px -171px;
+}
+
+.footer-container {
+    background: #f9f9f9;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.footer-container .footer {
+    padding: 22px 0 22px;
+    width: 1200px;
+    margin: 0 auto;
+    color: #666;
+    line-height: 1.5;
+}
+
+.footer-container .footer .footer-warrant-area {
+    text-align: left;
+    color: #a4a4a4;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.footer-container .footer .footer-warrant-area .footer-warrant-logo {
+    float: left;
+    width: 82px;
+    height: 20px;
+    padding: 3px 20px 0 0;
+}
+
+.footer-container .footer .footer-warrant-area .footer-warrant-logo a {
+    display: block;
+}
+
+.footer-container .footer .footer-warrant-area .footer-warrant-logo a img {
+    display: block;
+    vertical-align: top;
+    width: 82px;
+    height: 20px;
+}
+
+.footer-container .footer .footer-warrant-area .fl {
+    float: left;
+    font-size: 12px;
+    color: #a4a4a4;
+}
+
+.footer-container .footer .footer-warrant-area .fl ul {
+    margin-top: 3px;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
+
+.footer-container .footer .footer-warrant-area .fl ul li {
+    float: left;
+    line-height: 1;
+    padding-right: 6px;
+    border-right: 1px solid #d3d3d3;
+    margin-right: 6px;
+}
+
+.footer-container .footer .footer-warrant-area .fl ul li a {
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    color: #777;
+}
+
+.footer-container .footer .footer-warrant-area .fl a {
+    font-size: 12px;
+    line-height: 12px;
+    color: #a4a4a4;
+}
+
+.footer-container .footer .footer-warrant-area .fl a:hover {
+    color: #cc1f27;
+}
+
+.footer-container .footer .footer-warrant-area .fr {
+    margin-top: 2px;
+    float: right;
+}
+
+.footer-container .footer .footer-warrant-area .fr a {
+    display: block;
+    width: 70px;
+    margin-left: 17px;
+    height: 24px;
+}
+
+.footer-container .footer .footer-warrant-area .fr a img {
+    vertical-align: top;
+    width: 70px;
+    height: 24px;
+}

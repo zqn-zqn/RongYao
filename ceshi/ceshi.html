@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>页面图片跟随浏览器大小变化</title>
+    <style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+    }
+       #zxdlbg{
+           min-height: 550px;
+           background: url(../images/header_003.jpg) no-repeat center;
+       }
+    </style>
+</head>
+<body>
+    <div id="zxdlbg">
+    </div>
+
+    <!-- <script type="text/javascript">
+        window.onresize = window.onload = function () {
+            var w, h;
+            if (!!(window.attachEvent && !window.opera)) {
+                //h = document.documentElement.clientHeight;  //.offsetHeight
+                w = document.documentElement.clientWidth;  //.offsetWidth
+            } else {
+                //h = window.innerHeight;
+                w = window.innerWidth;
+            }
+            var bgImg = document.getElementById('zxdlbg').getElementsByTagName('img')[0];
+            bgImg.width = (w );
+            //bgImg.height = (h );
+        }
+    </script> -->
+</body>
+</html>

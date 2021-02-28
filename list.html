@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./import/header.css">
+    <link rel="stylesheet" href="./import/bottom.css">
+    <link rel="stylesheet" href="./css/list.css">
+</head>
+<body>
+    <!-- header-头部 -->
+    <div class="header_div"></div>
+
+    <!-- 列表页 -->
+    <div id="main">
+        <div class="main_wrap container">
+            <p>首页<i>></i> 手机</p>
+
+            <div class="main_list">
+                <span>
+                    分类：<a href="#" class="a1">手机</a>
+                </span>
+                <span>
+                    服务优惠：<a href="#" class="a2">仅看有货</a>
+                    <a href="#" class="a2">分期免息</a>
+                    <a href="#" class="a2">优惠商品</a>
+                </span>
+                <span>
+                    屏幕尺寸：<a href="#" class="a2">6.0-6.5英寸</a>
+                    <a href="#" class="a2">6.5英寸以上</a>
+                </span>
+                <span>
+                    更多选项：<a href="#" class="a2">运行内存</a>
+                    <a href="#" class="a2">存储容量</a>
+                    <a href="#" class="a2">上市时间</a>
+                </span>
+                <span class="last">
+                    排序：<i></i>
+                        <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;综合</a>
+                        <a href="#">最新</a>
+                        <a href="#">评论数</a>
+                        <a href="#">价格</a>
+                </span>
+            </div>
+
+            <ul class="main2_list">
+                <!-- <li>
+                    <img src="./images/sj-ry01.png" alt="">
+                    <i>荣耀V40</i>
+                    <a href="#" class="money">¥3599起</a>
+                    <a href="#" class="more">多款可选</a>
+                    <br>
+                    <a href="#" class="more03">商品赠券</a>
+                    <a href="#" class="more02">赠送积分</a>
+                    <br>
+                    <span>540人评价&nbsp;98%好评</span>
+                </li> -->
+
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- bottom-底部 -->
+    <div class="bottom_div"></div>
+
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/list.js"></script>
+    <script>
+        $(function(){
+            $(".header_div").load("./import/header.html");
+            $(".bottom_div").load("./import/bottom.html");
+        })
+    </script>
+
+</body>
+</html>

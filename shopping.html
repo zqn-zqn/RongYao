@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping</title>
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./import/bottom.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/shopping.css">
+</head>
+<body>
+    <!-- shortcut-捷径栏 -->
+    <div class="shortcut">
+        <div class="layout">
+            <ul class="layout_1">
+                <li>关于荣耀</li>
+                <li>新闻</li>
+                <li>摄影</li>
+                <li>会员</li>
+                <li>企业购</li>
+                <li>荣耀俱乐部</li>
+            </ul>
+            <ul class="layout_2">
+                <li>
+                    <span class="layout_login">注册</span>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <span class="layout_enter">登录</span>
+                </li>
+                <li>我的订单</li>
+                <li>
+                    <div class="layout_div2">
+                        <a class="icon_a2">手机端</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- header-头部 -->
+    <div class="header">
+        <div class="layout">
+            <div class="header_left">
+                <img src="./images/header_001.png" class="header_img" alt="荣耀商城">
+                <ul class="header_ul">
+                    <li>我的购物车</li>
+                </ul>
+            </div>
+            <!-- <div class="right">
+                <div class="progress-area progress-area-3">
+                    <div id="progress-cart" class="progress-sc-area">我的购物车</div>
+                </div>
+            </div> -->
+            <div class="layout_right"></div>
+        </div>
+    </div>
+
+    <!-- shopping-购物车 -->
+    <!-- <div class="shopping">
+        <div class="shopping_one">
+            您还没有登录！登录后可查看之前加入的商品
+         <a href="javascript:;" rel="nofollow">登录</a>
+        </div>
+
+        <div class="shopping_two">
+            <div class="shopping_three">
+                <span class="icon-minicart"></span> 
+                <p>您的购物车里什么也没有哦~</p> 
+                <a href="./index.html">去逛逛</a>
+            </div>
+            <div class="shopping_rxtj">
+                热销推荐
+            </div>
+            
+        </div>
+    </div> -->
+
+    <div class="shopp">
+        <div class="shopp-one">
+            <!-- 没有商品时的状态 -->
+            <!-- <p>您的购物车还是空的，您可以：<br>立即登录&nbsp;&nbsp;&nbsp;&nbsp;登录后购物车的商品将保存到您的账号中，或者去逛逛</p> -->
+
+            <ul class="shopp-ul">
+                <li class="shoppli1">&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="a0" name="a1" value="全选">&nbsp;&nbsp;&nbsp;&nbsp;全选</li>
+                <li class="shoppli2">商品信息</li>
+                <li class="shoppli3">单价（元）</li>
+                <li class="shoppli4">数量</li>
+                <li class="shoppli5">金额（元）</li>
+                <li class="shoppli6">操作</li>
+            </ul>
+            <div class="shopp-div">
+                <table class="shopp-table" width="100%" border="0" cellspacing="0" cellpadding="0" >
+                    <tbody class="shopp-tbody">
+                        <tr class="shopp-tr">
+                            <td class="shopp-td-1">&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="a1" value="1">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td class="shopp-tdimg"><img src="./images/sj-ry01.png" alt="" width="80px" height="80px"></td>
+                            <td class="shopp-tdname"><a href="javascript:">荣耀V40</a></td>
+                            <td class="shopp-td-2">¥
+                                <span>3599</span><!-- 单价 -->
+                            </td>
+                            <td class="shopp-tdshuli">
+                                <span class="shopp-span">
+                                    <a href="javascript:">
+                                        <input class="aa" type="button" value="-" style="display: inline-block; width: 28px; height: 28px;">
+                                    </a>
+                                    <input class="cc" type="text" name="wenben" value="1">
+                                    <a href="javascript:">
+                                        <input class="aa" type="button" value="+" style="display: inline-block; width: 28px; height: 28px;">
+                                    </a>
+                                </span>
+                            </td>
+                            <td class="shopp-td-3">
+                                ¥<span>3599.00</span><!-- 金额 -->
+                            </td>
+                            <td class="shopp-td-4">
+                                <span><a href="javascript:">移入收藏</a></span><br>
+                                <span><a href="javascript:"><input type="button" value="删除"></a></span>
+                            </td>
+                        </tr>
+                        <!-- <tr>
+                            <td class="shopp-td2"></td>
+                            <td class="shopp-td2"></td>
+                            <td class="shopp-td2"></td>
+                        </tr> -->
+                    </tbody>
+                    <tfoot class="shopp-tfoot">
+                        <tr class="shopp-tro">
+                            <td class="shopp-td3">&nbsp;</td>
+                            <td class="shopp-td3">店铺合计</td>
+                            <td class="shopp-td3">&nbsp;</td>
+                            <td class="shopp-td3 jin">￥<span></span></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 结算通栏 -->
+    <div class="close">
+        <div class="close-one">
+            <div class="close-div1">
+                <input type="checkbox" name="a1" value="全选">&nbsp;&nbsp;全选
+                <a class="colse-a" href="javascript:"><input type="button" value="批量删除"></a>
+                <span class="close-spanf">已选择<font color="red">0</font>件商品</span>
+            </div>
+            <div class="close-div2">
+                <a href="javascript:" class="colse-div2-a">结&nbsp;&nbsp;算</a>
+                <div class="close-divsp">
+                    <p>
+                        <span class="colse-span1">总计(不含运费)：</span>
+                        ¥<span class="colse-spansum" value="总计">0.00</span>
+                    </p>
+                    <p>
+                        <span class="colse-span2">已节省：</span>
+                        <span class="colse-spanshe">¥0.00</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 推荐 -->
+    <div class="recom">
+        <div class="recom-one">
+
+            <div class="recom-comm">买过购物车中商品的用户还买了</div>
+            <div class="swiper-container" id="main2_list">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <!-- class="recom-ul" -->
+                        <ul class="main2_list">
+                            <!-- <li class="recom-li">
+                                <a class="recom-aone" href="javascript:">
+                                    <img src="./images/sj-ry11.png" alt="">
+                                </a>
+                                <p>
+                                    <a href="javascript:">荣耀V40</a>
+                                </p>
+                                <p class="recom-ptwo">
+                                    <span class="recom-span">¥3599</span>
+                                </p>
+                                <a class="recom-atwo" href="javascript:">
+                                    <input class="recom-input" type="button" value="加入购物车">
+                                </a>
+                                <p class="recom-pone">540人评价 98%好评</p>
+                            </li> -->
+                        </ul>
+                    </div>
+
+                    <div class="swiper-slide"></div>
+
+                </div>
+                <div class="swiper-button-prev"></div><!--左箭头。如果放置在swiper-container外面，需要自定义样式。-->
+                <div class="swiper-button-next"></div><!--右箭头。如果放置在swiper-container外面，需要自定义样式。-->
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- bottom-底部 -->
+    <div class="bottom_div"></div>
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/shopping.js"></script>
+    <script>
+        $(function(){
+        $('.bottom_div').load('./import/bottom.html')
+        $('.layout_login').click(function(){
+            $(location).attr('href','./login.html')
+        })
+        $('.layout_enter').click(function(){
+            $(location).attr('href','./enter.html')
+        })
+        $('.header_img').click(function(){
+            $(location).attr('href','./index.html')
+        })
+        $('.colse-div2-a').click(function(){
+            alert('结算成功')
+        })
+    })
+    </script>
+
+</body>
+</html>

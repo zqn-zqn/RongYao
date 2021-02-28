@@ -1,0 +1,199 @@
+html {
+    overflow-x: hidden;
+}
+/* header-头部 */
+.header {
+    width: 100%;
+    background: rgba(0,0,0,.05);
+}
+.header_one {
+    width: 1200px;
+    height: 48px;
+    margin: 0 auto;
+}
+.header_one img {
+    height: 24px;
+    width: 108px;
+    margin-left: 4px;
+    margin-top: 12px;
+}
+
+.header_from {
+    width: 100%;
+}
+.header_input {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.header_padding {
+    padding: 70px 456px 38px;
+}
+.header_zc {
+    text-align: center;
+    /* margin: 10px 0 60px; */
+    margin-top: 10px;
+}
+.header_zc span {
+    display: block;
+    font-size: 25.6px;
+    padding-bottom: 64px
+}
+.input_01 {
+    height: 40px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+.input_01 input {
+    width: 260px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    outline-style: none;
+    padding: 0 13px;
+}
+
+.input_02 {
+    height: 40px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+.input_02 input {
+    width: 260px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    outline-style: none;
+    padding: 0 13px;
+}
+
+.input_03 {
+    width: 201px;
+    height: 40px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    color: #868686;
+}
+.input_03 span {
+    width: 201px;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    outline-style: none;
+    padding: 0 13px;
+}
+.input_span {
+    color: #00B1FF;
+    cursor: pointer;
+    font-size: 12.8px;
+    padding-top: 12.8px;
+    font-size: 16px;
+}
+.input_zcansx{
+    border-radius: 6.4px;
+    background: #007dff;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    width: 288px;
+    font-size: 14px;
+    height: 38px;
+    color: #fff;
+    padding: 0 12px;
+    margin-top: 32px;
+    opacity: 0.38 !important;
+    outline-style: none;
+}
+.input_ul ul {
+    padding: 32px 31px 48px;
+    font-size: 16px;
+    color: #00B1FF;
+    cursor: pointer;
+}
+.input_ul ul li:nth-child(1) {
+    float: left;
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid #d3d3d3;
+}
+.input_ul ul li:nth-child(2) {
+    float: left;
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid #d3d3d3;
+}
+.input_ul ul li:nth-child(3) {
+    float: left;
+}
+
+
+/* bottom-底部 */
+.bottom {
+    width: 100%;
+    background: rgba(0,0,0,.05);
+    padding-bottom: 28px;
+}
+.bottom_one {
+    width: 1200px;
+    height: 110px;
+    margin: 0 auto;
+}
+.bottom_one ul {
+    padding: 20px 400px 30px;
+    font-size: 14px;
+}
+.bottom_one ul li:nth-child(1) {
+    float: left;
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid #d3d3d3;
+}
+.bottom_one ul li:nth-child(2) {
+    float: left;
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid #d3d3d3;
+}
+.bottom_one ul li:nth-child(3) {
+    float: left;
+}
+.bottom_p {
+    text-align: center;
+    color: #000;
+    opacity: .3;
+    font-size: 14px;
+}
+
+/* 固定定位 */
+.position {
+    width: 100%;
+    opacity: .9;
+    background: #dedede;
+    position: fixed;
+    bottom: 0px;
+}
+.position_one {
+    width: 1200px;
+    height: 48px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 48px;
+    font-size: 14px;
+}
+.position_one span:nth-child(2) {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: url(../images/zc-dl.png);
+    background-size: 14px 14px;
+    margin-left: 16px;
+    margin-top: 16px;
+}

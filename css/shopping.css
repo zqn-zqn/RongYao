@@ -1,0 +1,577 @@
+html {
+    background-color: #ffffff;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+    background: #f5f5f5;
+}
+
+/* shortcut捷径栏 */
+.shortcut {
+    min-width: 1200px;
+    height: 36px;
+    background-color: #000000;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    position: relative;
+    z-index: 1;
+}
+
+.layout {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.layout_1 {
+    float: left;
+    font-size: 13px;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.layout_1>li {
+    float: left;
+    margin-right: 40px;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.layout_2 {
+    float: right;
+    font-size: 13px;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.layout_2>li {
+    float: left;
+    margin-left: 40px;
+    color: rgba(255, 255, 255, .8);
+    position: relative;
+    cursor: pointer;
+}
+
+.icon_a::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/icon-common.svg);
+    background-position: -100px 0;
+    position: absolute;
+    top: 8px;
+    right: 60px;
+}
+
+.layout_div2 {
+    height: 36px;
+    position: relative;
+    padding: 0 16px 0 10px;
+}
+
+.icon_a2::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/icon-common.svg);
+    background-position: -130px -148px;
+    position: absolute;
+    top: 10px;
+    left: 49px;
+}
+
+/* header-头部 */
+.header {
+    min-width: 1200px;
+    height: 74px;
+    background: #ffffff;
+    position: relative;
+    z-index: 0;
+}
+
+.layout {
+    line-height: 74px;
+}
+
+.header_left>img {
+    float: left;
+    width: 127px;
+    height: 25px;
+    padding-top: 25px;
+    margin-right: 40px;
+}
+
+.header_ul {
+    float: left;
+}
+
+.header_ul>li {
+    float: left;
+    font-size: 22px;
+    color: #333333;
+    margin-left: -15px;
+    cursor: pointer;
+}
+
+.layout_right {
+    width: 320px;
+    height: 50px;
+    float: right;
+    margin: 10px;
+    background: url(../images/sprites.svg);
+    background-position: -40px -22px;
+}
+
+/* shopping-购物车 */
+.shopping {
+    width: 100%;
+}
+.shopping_one {
+    width: 1158px;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 auto;
+    border: 1px solid #eace85;
+    background: #fffdee;
+    padding: 0 20px;
+    margin-top: 10px;
+    color: #ca141d;
+}
+.shopping_one::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: url(../images/gwc_.png) no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin-right: 3px;
+}
+.shopping_one a {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background: #ca141d;
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+.shopping_two {
+    width: 1200px;
+    height: 740px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-top: 135px;
+    text-align: center;
+}
+.shopping_three {
+    width: 1200px;
+    height: 365px;
+}
+.icon-minicart {
+    background: url(../images/gwc_02.png) no-repeat;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 36px; 
+}
+.shopping_two p {
+    font-size: 18px;
+    color: #a4a4a4;
+    margin-bottom: 16px;
+}
+.shopping_two a {
+    width: 172px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    background: #ca141d;
+    border-radius: 2px;
+}
+.shopping_rxtj {
+    color: #3a3a3a;
+    font-size: 18px;
+    line-height: 1;
+    padding: 30px 0 10px;
+    text-align: left;
+    background: #f5f5f5;
+}
+
+/*购物车*/
+.shopp {
+    width: 100%;
+    /* height: 340px; */
+    height: 100%;
+    text-align: center;
+    line-height: 110px;
+    color: #8a8888;
+}
+.shopp-one {
+    margin: 0 auto;
+    width: 960px;
+    /* height: 340px; */
+    height: 100%;
+}
+.shopp-ul {
+    line-height: 36px;
+    height: 36px;
+    margin-top: 10px;
+}
+.shopp-ul li {
+    float: left;
+    line-height: 35px;
+    font-size: 12px;
+}
+.shoppli1 {
+    text-align: left;
+    width: 202px;
+}
+.shoppli2 {
+    text-align: left;
+    width: 280px;
+}
+.shoppli3 {
+    width: 130px;
+}
+.shoppli4 {
+    width: 130px;
+}
+.shoppli5 {
+    width: 130px;
+}
+.shoppli6 {
+    width: 70px;
+}
+
+.shopp-div {
+    width: 958px;
+    border: 1px solid #ebebeb;
+    background-color: #fafafa;
+    margin-bottom: 40px;
+}
+/* .shopp-td-1 {
+
+} */
+.shopp-tdimg {
+    padding: 53px 20px 20px 0;
+    width: 80px;
+    position: relative;
+}
+.shopp-tdname {
+    width: 300px;
+    text-align: left;
+    padding-top: 17px;
+    padding-left: 55px;
+}
+.shopp-td-2 {
+    width: 60px;
+    vertical-align: top;
+    padding-top: 15px;
+    line-height: 166px;
+}
+
+.shopp-tdshuli {
+    padding-top: 15px;
+    padding-left: 63px;
+    position: relative;
+    line-height: 22px;
+    text-align: center;
+}
+/* .shopp-span {
+    height: 28px;
+    width: 94px;
+    line-height: 28px;
+    font-size: 14px;
+    margin: 5px auto;
+    overflow: hidden;
+} */
+.shopp-span>a {
+    display: block;
+    float: left;
+    height: 28px;
+    width: 28px;
+    background-color: #f4f4f4;
+}
+.shopp-span>input {
+    width: 36px;
+    height: 28px;
+    float: left;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    border-width: 0 1px;
+    background-color: #fff;
+    font-weight: bold;
+}
+.shopp-td-3 {
+    color: #ff2832;
+    padding-right: 49px;
+    padding-top: 10px;
+}
+.shopp-td-4 {
+    padding-top: 15px;
+    line-height: 22px;
+    padding-right: 8px;
+}
+.shopp-td3 {
+    padding: 10px 0 10px 10px;
+    width: 42px;
+    vertical-align: middle;
+    position: relative;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+/*结算通栏*/
+.close {
+    width: 100%;
+    height: 72px;
+}
+.close-one {
+    width: 960px;
+    height: 72px;
+    background: url(../images/shopping_total.png);
+    margin: 20px auto;
+    padding: 0 62px;
+}
+.close-div1 {
+    float: left;
+    line-height: 58px;
+    width: 430px;
+}
+.colse-a {
+    margin-left: 28px;
+}
+.close-spanf {
+    margin-left: 80px;
+}
+.close-div2 {
+    float: right;
+    margin: 18px 0 0;
+    width: 530px;
+}
+.colse-div2-a {
+    float: right;
+    display: block;
+    width: 116px;
+    height: 38px;
+    font: bold 18px/38px "Microsoft Yahei";
+    color: #fff;
+    background-color: #ff2832;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 4px;
+}
+.close-divsp {
+    padding-right: 30px;
+    line-height: 24px;
+    float: right;
+}
+.colse-span1 {
+    padding: 0 8px 0 0;
+}
+.colse-spansum {
+    font-size: 18px;
+    color: #ff2832;
+}
+.colse-span2 {
+    padding: 0 8px 0 0;
+}
+.colse-spanshe {
+    font-size: 18px;
+    color: #ff2832;
+}
+
+
+/*推荐*/
+.recom {
+    width: 100%;
+    height: 580px;
+    margin-top: 20px;
+}
+.recom-one {
+    margin: 0 auto;
+    width: 1000px;
+    height: 580px;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 20px;
+    padding: 10px 0 15px;
+}
+.recom-comm {
+    line-height: 36px;
+    height: 36px;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #323232;
+}
+/*左右按钮*/
+.recom-box {
+    position: relative;
+}
+.recomlr {
+    position: absolute;
+    width: 34px;
+    height: 70px;
+    background-image: url(../images/arrow_ad.png);
+    top: 50%;
+    margin-top: 225px;
+    opacity: .8;
+    z-index: 9;
+}
+.left {
+    left: 0;
+    background-position: 0 -112px;
+}
+.right {
+    right: 0;
+    background-position: -34px -112px;
+}
+.recom-yuan {
+    position: absolute;
+    right: 30px;
+    top: -23px;
+}
+.recom-yuan .on {
+    background: #fc2c3a;
+}
+.recom-yuanone {
+    float: left;
+    width: 8px;
+    height: 8px;
+    margin-left: 12px;
+    overflow: hidden;
+    line-height: 36px;
+    font-size: 0;
+    background: #c2c2c2;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.recom-yuantwo {
+    float: left;
+    width: 8px;
+    height: 8px;
+    margin-left: 12px;
+    overflow: hidden;
+    line-height: 36px;
+    font-size: 0;
+
+    border-radius: 4px;
+    cursor: pointer;
+}
+.recom-sum {
+    width: 10000%;
+}
+.main2_list {
+    width: 1900px;
+    float: left;
+    height: 530px;
+}
+.main2_list2 {
+    width: 960px;
+    float: left;
+    height: 570px;
+    margin-left: 34px;
+}
+.main2_list>li {
+    width: 150px;
+    border: none 0;
+    padding: 0 16px 12px;
+    margin: 0 20px 0 0;
+    text-align: center;
+    float: left;
+    color: #323232;
+    line-height: 16px;
+    position: relative;
+    overflow: hidden;
+}
+.main2_list2>li {
+    width: 150px;
+    border: none 0;
+    padding: 0 10px 12px;
+    margin: 0 20px 0 0;
+    text-align: center;
+    float: left;
+    color: #323232;
+    line-height: 16px;
+    position: relative;
+    overflow: hidden;
+}
+.recom-aone>img {
+    width: 150px;
+    height: 150px;
+}
+/* .recom-ul>li:hover .recom-atwo{
+    display: block;
+} */
+.recom-aone {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
+}
+.main2_list>li>p {
+    text-align: center;/*left*/
+    line-height: 28px;
+    width: 150px;
+    height: 28px;
+    overflow: hidden;
+}
+.main2_list2>li>p {
+    text-align: center;/*left*/
+    line-height: 28px;
+    width: 150px;
+    height: 28px;
+    overflow: hidden;
+}
+.recom-ptwo {
+    /* text-align: left !important; */
+    line-height: 14px;
+    width: 150px;
+    height: 28px;
+    overflow: hidden;
+}
+.recom-span {
+    font-size: 16px;
+    color: #ff2832;
+    line-height: 32px;
+    margin-left: 8px;
+}
+.recom-input {
+    position: absolute;
+    top: 136px;
+    left: 10px;
+    display: none; 
+    opacity: .85;
+    width: 150px;
+    height: 24px;
+    background-color: #ff5e5e;
+    color: #fff;
+    outline-style: none;
+    border: 1px solid #ff5e5e;
+    cursor: pointer;
+}
+.main2_list>li:hover .recom-input{
+    display: block;
+}
+.main2_list2>li:hover .recom-input{
+    display: block;
+}
+.recom-pone {
+    width: 150px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    text-align: left;
+}
