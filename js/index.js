@@ -13,13 +13,3 @@ if (localStorage.getItem("login")) {
         console.log(123);
     })
 }
-
-/* $(function(){
-    $('.layout_login').click(function(){
-        $(location).attr('href','./login.html')
-    })
-    $('.layout_enter').click(function(){
-        $(location).attr('href','./enter.html')
-    })
-}) */
-

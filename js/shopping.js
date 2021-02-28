@@ -1,20 +1,4 @@
-/* var mySwiper = new Swiper('.swiper-container', {
-    autoplay:true,//自动切换，默认时间3s
-    navigation: {  //左右按钮
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    effect : 'fade',//淡入切换效果。
-    loop : true,//循环切换。
-});
-//鼠标覆盖停止自动切换
-mySwiper.el.onmouseover = function(){
-    mySwiper.autoplay.stop();
-}
-//鼠标离开开始自动切换
-mySwiper.el.onmouseout = function(){
-    mySwiper.autoplay.start();
-} */
+
 var mySwiper = new Swiper('.swiper-container', {
     navigation: {
       nextEl: '.swiper-button-next',
